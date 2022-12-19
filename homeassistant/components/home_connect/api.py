@@ -212,7 +212,7 @@ class DeviceWithDoor(HomeConnectDevice):
             ATTR_DEVICE: self,
             ATTR_DESC: "Door",
             ATTR_SENSOR_TYPE: "door",
-            ATTR_DEVICE_CLASS: "door",
+            ATTR_DEVICE_CLASS: "opening",
         }
 
 
